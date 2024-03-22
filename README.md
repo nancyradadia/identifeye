@@ -4,6 +4,27 @@
 
 HealthRecordsHub is a simple, in-memory service designed to aggregate patient and exam data from text file instructions. This project was created as part of a take-home assignment for a Software Engineering Internship application. It demonstrates the ability to read and process commands from a file, manage data in memory, and produce a summarized output of patient records, including exam counts.
 
+# Project Structure
+
+```bash
+HealthRecordsHub/
+│
+├── src/                    # Source code directory
+│   ├── index.js            # Main application entry point
+│   ├── parser.js           # Utility for parsing input files
+│   └── managers/           # Directory for data management modules
+│       ├── patient.js      # Module to handle patient-related operations
+│       └── exam.js         # Module to handle exam-related operations
+│
+├── test/                   # test files and expected output for testing the application
+│   ├── input/              # Directory for input test files (.txt format)
+│   └── output/             # Directory for expected output files
+│
+├── .gitignore              # Specifies intentionally untracked files to ignore
+└── README.md               # Project overview, setup instructions
+```
+
+
 ## Input File Specification
 Instructions in the input files should follow the format described in the project assignment. Here is a quick overview:
 
