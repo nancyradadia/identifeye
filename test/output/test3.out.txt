@@ -1,3 +1,0 @@
-Name: JOHN DOE, Id: 123, Exam Count: 0
-Name: JANE DOE, Id: 456, Exam Count: 1
-Name: ALICE WONDERLAND, Id: 789, Exam Count: 1
