@@ -7,7 +7,7 @@ HealthRecordsHub is a simple, in-memory service designed to aggregate patient an
 # Project Structure
 
 ```bash
-HealthRecordsHub/
+Identifeye/
 │
 ├── src/                    # Source code directory
 │   ├── index.js            # Main application entry point
@@ -24,13 +24,13 @@ HealthRecordsHub/
 └── README.md               # Project overview, setup instructions
 ```
 
-
 ## Input File Specification
+
 Instructions in the input files should follow the format described in the project assignment. Here is a quick overview:
 
 1. ADD PATIENT [patientId] [patientName] - Adds a new patient record if the patient dosent already exists.
 2. ADD EXAM [patientId] [examId] - Adds a new exam record associated with a patient, if the examId already exists it simply ignores
 3. DEL PATIENT [patientId] - Deletes a patient record and associated exams if the id is present in memory.
 4. DEL EXAM [examId] - Deletes an exam record if exam id exists
-   
+
 After you run your file it creates .out.txt file for each test case that provides the summary of the test file.

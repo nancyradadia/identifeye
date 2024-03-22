@@ -1,0 +1,13 @@
+{
+    "name": "health-records-hub",
+    "version": "1.0.0",
+    "description": "This is a simple application that manages and aggregates the health records of patient",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "nancyradadia",
+    "license": "MIT",
+    "type": "module"
+  }
+  
