@@ -4,7 +4,8 @@
     "description": "This is a simple application that manages and aggregates the health records of patient",
     "main": "index.js",
     "scripts": {
-      "test": "echo \"Error: no test specified\" && exit 1"
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "start": "node src/index.js"
     },
     "author": "nancyradadia",
     "license": "MIT",

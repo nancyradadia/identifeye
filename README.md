@@ -24,6 +24,27 @@ Identifeye/
 └── README.md               # Project overview, setup instructions
 ```
 
+# Getting Started
+
+1. Clone the repository to your local machine:
+    ```bash
+    https://github.com/nancyradadia/identifeye.git
+    ```
+2. ```bash
+    cd Identifeye
+    ```
+3. Install Node.js (Recommended version: 14.x or newer).
+   
+There are no external dependencies required for this project, so you can skip straight to running the application by running index.js
+
+
+# How to Run 
+
+To test the application with different sets of instructions, add your test files to the /test directory. Then write the following command that will run all the test cases present in the input directory
+``` bash
+    npm run start
+```
+
 ## Input File Specification
 
 Instructions in the input files should follow the format described in the project assignment. Here is a quick overview:
